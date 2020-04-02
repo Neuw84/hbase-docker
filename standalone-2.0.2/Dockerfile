@@ -18,7 +18,7 @@ ADD hbase-site.xml /${DESTINATION}/conf/hbase-site.xml
 RUN mkdir -p /data/hbase
 RUN mkdir -p /data/zookeeper
 
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+ENV JAVA_HOME /usr/local/openjdk-8
 ENV PATH $PATH:/${DESTINATION}/bin
 
 # Getting web-for-it
